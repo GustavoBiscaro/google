@@ -15,8 +15,9 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
-    margin-top: 2px;
+    padding: 1px;
+    margin-top: 10px;
+    margin-right: 5px;
 
 }
 
@@ -25,7 +26,7 @@ li {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    margin-left: 1%;
+    margin-left: 0.7%;
     font-size: 12px;
 }
 
@@ -40,22 +41,20 @@ li a:hover {
 }
 
 nav li a img {
-    width: 20px;
+ width: 20px;
 }
 
 nav .li-group {
     padding: 7px;
-
-}
-
-nav .li-group:hover {
-
-    background-color: #ebe6e6;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+}
+
+nav .li-group:hover {
+    background-color: #ebe6e6;
 }
 
 nav li a .sign-in {
@@ -69,6 +68,7 @@ nav li a .sign-in {
     -o-border-radius: 20px;
     text-align: center;
     font-size: 14px;
+    cursor: pointer;
 }
 
 nav li a .sign-in:hover {
@@ -82,17 +82,18 @@ main {
     flex-direction: column;
 }
 
-form {
+.input-container {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-form .logo {
+main.logo {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 }
 
 main .logo img {
@@ -101,24 +102,128 @@ main .logo img {
     margin-right: 40vw;
     width: 350px;
     margin-top: 7%;
-    
 }
 
-form input {
- 
+.input-container #search {
+    margin-top: 5%;
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 30%;
-    max-width: 750px;
-    align-items: center;
-    border: 1px solid #ccc;
-    margin-top: 5vh;
-    height: 3em;
+
+/* Icons */
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-container input {
+    width: 100%;
+    padding-left: 45px;
+    height: 50px;
+    font-size: 16px;
     border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    border: 1px solid #ccc;
+}
+a .icon {
+    cursor: pointer;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 67%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #999;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+
+.icon1 {
+    margin-left: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.icon2 {
+    left: 520px;
+    cursor: pointer;
+}
+
+.icon3 {
+    left: 477px;
+}
+
+.icon4 {
+    margin-left: 2px;
+    left: 550px;
+}
+
+/* Fim icon */
+
+/* Footer */
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: auto;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    background-color: #f2f2f2;
+}
+
+#country {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+
+
+}
+
+#country a {
+    color: #000;
+    margin-right: 100%;
+}
+
+
+
+
+#nav-about {
+    width: 100%;
+}
+
+#about {
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    margin-right: 70%;
+    width: 100%;
+   
+}
+    
+
+
+#about li {
+    margin: 0 10px; 
+    white-space: nowrap;
+}
+
+
+#about li a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 14px;
+}
+
+#about li a:hover {
+    text-decoration: underline;
 }
