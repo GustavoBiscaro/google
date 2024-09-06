@@ -172,21 +172,16 @@ footer {
     width: 100%; 
     height: auto;
     text-align: center;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
-    background-color: #f2f2f2;
+    background-color: #ebe6e6;
 }
 
 #country {
     width: 100%;
     height: auto;
     font-size: 14px;
-    background-color: #f2f2f2;
     border: 1px solid #ccc;
     padding: 15px;
     text-align: center;
-    border: 1px solid #ccc;
-
-
 }
 
 #country a {
