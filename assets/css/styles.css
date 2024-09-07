@@ -212,7 +212,12 @@ footer #about {
 }
 
 #about li a {
+    text-decoration: none;
     color: #000;
+}
+
+#about li a:hover {
+    text-decoration: underline;
 }
 
 /* Fim footer */
@@ -409,10 +414,15 @@ nav li a .sign-in:hover {
     
     #about li a {
         color: #000;
+        text-decoration: none;
         list-style: none;
         margin-right: 5px;
         margin-left: 10px;
 
+    }
+
+    #about li a:hover {
+        text-decoration: underline;
     }
 
  
@@ -611,7 +621,12 @@ nav li a .sign-in:hover {
         list-style: none;
         margin-right: 5px;
         margin-left: 10px;
+        text-decoration: none;
 
+    }
+
+    #about li a:hover {
+        text-decoration: underline;
     }
 
 }
@@ -810,7 +825,12 @@ nav li a .sign-in:hover {
         list-style: none;
         margin-right: 5px;
         margin-left: 10px;
+        text-decoration: none;
 
+    }
+
+    #about li a:hover {
+        text-decoration: underline;
     }
 
 }
@@ -1009,7 +1029,11 @@ nav li a .sign-in:hover {
         list-style: none;
         margin-right: 5px;
         margin-left: 10px;
+        text-decoration: none;
+    }
 
+    #about li a:hover {
+        text-decoration: underline;
     }
 
 }
@@ -1211,7 +1235,11 @@ nav li a .sign-in:hover {
         list-style: none;
         margin-right: 5px;
         margin-left: 15px;
+        text-decoration: none;
+    }
 
+    #about li a:hover {
+        text-decoration: underline;
     }
 
 }
