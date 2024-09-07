@@ -181,10 +181,11 @@ footer {
 footer .container-country {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     border: 1px solid #ccc;
     align-items: center;
     background-color: #ebe6e6;
+    padding: 0;
 }
 
 .container-country p .country {
